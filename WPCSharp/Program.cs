@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Creational.FactoryMethod;
+using WPCSharp.DesignPatterns.Creational.AbstractFactory;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
