@@ -1,4 +1,5 @@
 ﻿using System;
+using WPCSharp.DesignPatterns.Creational.FactoryMethod;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
@@ -7,7 +8,7 @@ namespace WPCSharp
     {
         static void Main(string[] args)
         {
-            WPCSharp.DesignPatterns.Creational.Builder.Client.Execute();
+            Client.Execute();
 
 
             //int w = 4, h = 5;
