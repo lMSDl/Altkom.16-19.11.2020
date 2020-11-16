@@ -7,29 +7,13 @@ namespace WPCSharp.DesignPrinciples
     {
         private ICollection<PaymentAccount> Customers { get; } = new List<PaymentAccount> { new PaymentAccount(1), new PaymentAccount(2), new PaymentAccount(3), new PaymentAccount(4), new PaymentAccount(5) };
 
-        public bool DeleteCustomer(PaymentAccount customer)
-        {
-            return Customers.Remove(customer);
-        }
-
-        public PaymentAccount Find(float allowedDebit)
-        {
-            return Customers.SingleOrDefault(x => x.AllowedDebit == allowedDebit);
-        }
-
-
         public bool Charge(int customerId, float amount)
         {
+            if (GetBalance(customerId) < amount)
+            {
+                return false;
+            }
             PaymentAccount customer = FindCustomerById(customerId);
-            if (customer == null)
-            {
-                return false;
-            }
-
-            if (customer.Income - customer.Outcome + customer.AllowedDebit < amount)
-            {
-                return false;
-            }
 
             customer.Outcome += amount;
             return true;
