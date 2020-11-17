@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Creational.Flyweight;
+using WPCSharp.DesignPatterns.Creational.Proxy;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
