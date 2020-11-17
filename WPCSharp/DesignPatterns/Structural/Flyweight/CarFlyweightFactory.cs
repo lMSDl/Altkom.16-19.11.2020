@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System;
 
-namespace WPCSharp.DesignPatterns.Creational.Flyweight
+namespace WPCSharp.DesignPatterns.Structural.Flyweight
 {
     public class CarFlyweightFactory
     {

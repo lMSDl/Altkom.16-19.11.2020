@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WPCSharp.DesignPatterns.Creational.Flyweight
+namespace WPCSharp.DesignPatterns.Structural.Flyweight
 {
     public class Client
     {

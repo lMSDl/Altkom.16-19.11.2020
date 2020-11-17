@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WPCSharp.DesignPatterns.Creational.Proxy
+namespace WPCSharp.DesignPatterns.Structural.Proxy
 {
     public class Client
     {

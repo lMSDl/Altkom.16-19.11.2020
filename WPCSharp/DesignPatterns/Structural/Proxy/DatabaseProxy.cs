@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WPCSharp.DesignPatterns.Creational.Proxy
+namespace WPCSharp.DesignPatterns.Structural.Proxy
 {
     public class DatabaseProxy : IDatabase
     {

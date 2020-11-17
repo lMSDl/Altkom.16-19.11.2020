@@ -2,8 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WPCSharp.DesignPatterns.Structural.Flyweight;
 
-namespace WPCSharp.DesignPatterns.Creational.Flyweight
+namespace WPCSharp.DesignPatterns.Structural.Flyweight
 {
     public class CarFlyweight : ICarFlyweight
     {
