@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Structural.Facade.I;
+using WPCSharp.DesignPatterns.Creational.Flyweight;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
