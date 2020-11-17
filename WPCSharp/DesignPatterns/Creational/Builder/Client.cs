@@ -10,13 +10,18 @@ namespace WPCSharp.DesignPatterns.Creational.Builder
         {
             //var vehicle = new Vehicle(4, 5, 4, 500, 100);
 
-            var vehicleBuilder = new VehicleInfoBuilder();
+            var vehicleBuilder = new VehicleBuilderFacade();
             vehicleBuilder
-                .SetWheels(4)
-                .SetSeats(5)
-                .SetDoors(4)
-                .SetTrunkCapacity(500)
-                .SetEnginePower(100);
+                .Components
+                    .SetWheels(4)
+                    .SetSeats(5)
+                    .SetDoors(4)
+                    .SetTrunkCapacity(500)
+                    .SetEnginePower(100)
+                .Manufacturing
+                    .SetManufacturer("Altkom")
+                    .SetModel("X012")
+                    .SetProductionDate(DateTime.Now);
 
             Console.WriteLine(vehicleBuilder.Build());
         }

@@ -6,7 +6,7 @@ namespace WPCSharp.DesignPatterns.Creational.Builder
 {
     public class Vehicle
     {
-        public static VehicleBuilder GetBuilder() => new VehicleBuilder();
+        public static VehicleBuilderFacade GetBuilder() => new VehicleBuilderFacade();
 
         public Vehicle()
         {
@@ -44,6 +44,10 @@ namespace WPCSharp.DesignPatterns.Creational.Builder
         public int Doors { get; set; }
         public int? TrunkCapacity { get; set; }
         public int? EnginePower { get; set; }
+
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public DateTime ProductionDate { get; set; }
 
         public override string ToString()
         {
