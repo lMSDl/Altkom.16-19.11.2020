@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Creational.ObjectPool;
+using WPCSharp.DesignPatterns.Structural.Adapter.II;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
