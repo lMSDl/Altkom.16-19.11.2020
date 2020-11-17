@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Creational.Singleton;
+using WPCSharp.DesignPatterns.Creational.Prototype;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
