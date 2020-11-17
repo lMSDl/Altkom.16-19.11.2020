@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Structural.Bridge.III;
+using WPCSharp.DesignPatterns.Structural.Composite;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
