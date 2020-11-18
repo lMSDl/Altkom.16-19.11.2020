@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WPCSharp.DesignPatterns.Behavioral.XXX
+namespace WPCSharp.DesignPatterns.Behavioral.TemplateMethod
 {
     public class FileService : IDisposable
     {

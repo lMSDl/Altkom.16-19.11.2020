@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Behavioral.XXX;
+using WPCSharp.DesignPatterns.Behavioral.TemplateMethod;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
