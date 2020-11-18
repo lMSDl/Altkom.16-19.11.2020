@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Behavioral.State;
+using WPCSharp.DesignPatterns.Behavioral.Strategy;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
