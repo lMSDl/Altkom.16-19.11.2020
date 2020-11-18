@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Behavioral.Visitor.II;
+using WPCSharp.DesignPatterns.Behavioral.NullObject;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
