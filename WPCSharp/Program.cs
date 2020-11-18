@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Behavioral.Mediator;
+using WPCSharp.DesignPatterns.Behavioral.Memento;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
