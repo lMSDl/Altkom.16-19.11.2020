@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Behavioral.ChainOfResponsibility.II;
+using WPCSharp.DesignPatterns.Behavioral.Command;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
