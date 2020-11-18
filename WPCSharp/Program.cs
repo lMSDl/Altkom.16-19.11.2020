@@ -1,5 +1,5 @@
 ﻿using System;
-using WPCSharp.DesignPatterns.Structural.Proxy;
+using WPCSharp.DesignPatterns.Behavioral.ChainOfResponsibility.II;
 using WPCSharp.SOLID.L;
 
 namespace WPCSharp
