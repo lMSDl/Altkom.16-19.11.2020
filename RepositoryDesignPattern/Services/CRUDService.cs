@@ -9,7 +9,7 @@ namespace RepositoryDesignPattern.Services
 {
     public class CRUDService<TEntity, TId> where TEntity : Entity<TId>
     {
-        public TId Create(TEntity entity)
+        public virtual TId Create(TEntity entity)
         {
             using (var context = new Context())
             {
@@ -33,7 +33,7 @@ namespace RepositoryDesignPattern.Services
             }
         }
 
-        public void Update(TEntity entity)
+        public virtual void Update(TEntity entity)
         {
             using (var context = new Context())
             {

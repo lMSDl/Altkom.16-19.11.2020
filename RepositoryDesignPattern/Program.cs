@@ -13,14 +13,16 @@ namespace RepositoryDesignPattern
     {
         static void Main(string[] args)
         {
-            var person = new Person() { FirstName = "Ewa", LastName = "Ewowska", BirthDate = DateTime.Now };
-            var address = new Address() { City = "Warszawa", Street = "Mazowiecka" };
+            var person = new Person() { FirstName = "Edward", LastName = "Edwardowski", BirthDate = DateTime.Now };
+            var address = new Address() { City = "Łódź", Street = "Warszawska", Id = 2 };
+            person.Address = address;
 
 
 
             //CreatePerson(person);
             //CreateAddress(address);
 
+            new CRUDService<Address, int>().Update(address);
 
             new CRUDService<Address, int>().Read().ToList().ForEach(x => Console.WriteLine(JsonConvert.SerializeObject(x)));
             new PeopleService().Read().ToList().ForEach(x => Console.WriteLine(JsonConvert.SerializeObject(x)));
